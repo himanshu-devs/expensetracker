@@ -1,0 +1,58 @@
+body{
+font-family : Arial, sans-serif;
+background : linear-gradient(135deg, #dfe9fe, #ffffff);
+text-align : center;
+}
+
+.container{
+width : 350px;
+margin : 50px auto;
+background : white;
+padding : 20px;
+border-radius : 10px;
+box-shadow : 0 0 10px rgba(0,0,0,0.1);
+}
+
+input{
+width : 90%;
+padding : 8px;
+margin : 5px 0;
+}
+
+button{
+padding : 8px 12px;
+margin-top : 5px;
+cursor : pointer;   
+border : none;
+background : #007bff;
+color : white;
+border-radius : 5px;
+}
+
+button:hover{
+background : #0056b3;
+}
+
+li{
+list-style : none;
+margin : 8px 0;
+padding : 8px;
+background : #eee;
+border-radius : 5px;
+}
+
+li button {
+background : red;
+margin-left : 10px;
+}
+
+.edit-btn {
+    background: orange;
+    color: white;
+    margin-left: 5px;
+}
+
+.edit-btn:hover {
+    background: darkorange;
+}
+
